@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <title>Sven Franck | Blog</title>
+    <link rel="alternate" type="application/rss+xml" hreflang="en" title="Sven Franck | jumpstartEU" href="/en/feed.xml">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:" >
+    <meta name="referrer" content="same-origin">
+    <meta http-equiv="Feature-Policy" content="accelerometer 'none'; ambient-light-sensor 'none'; autoplay: 'none'; battery: 'none'; camera: 'none'; display-capture: 'none'; document-domain: 'none'; encrypted-media: 'none'; geolocation: 'none'; gyroscope: 'none'; magnetometer: 'none'; microphone: 'none'; payment: 'none'; usb: 'none'" >  
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1" >
+    <meta name="robots" content="noindex, nofollow" >
+
+    <meta name="application-name" content="Sven Franck">
+    <meta name="description" content="Sven is writing about politics in Europe">
+    <meta name="url" content="/">
+    <meta name="keywords" content="Sven Franck, Europe, Volt, Blog" >
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sven Franck | Blog">
+    <meta property="og:site_name" content="Sven Franck">
+    <meta property="og:description" content="Sven is writing about politics in Europe">
+    <meta property="og:url" content="/">
+    <meta property="og:locale" content="en_en">
+    <meta property="og:image" content="/img/icon_512x512.png" >
+    <meta property="og:image:width" content="512" >
+    <meta property="og:image:height" content="512" >
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Sven Franck | Blog">
+    <meta name="twitter:description" content="Sven is writing about politics in Europe">
+    <meta name="twitter:url" content="/">
+    <meta name="twitter:creator" content="@svenfranck">
+    <meta name="twitter:image" content="/img/icon_512x512.png" >
+
+    <link rel="alternate" hreflang="fr" href="/blog.html" >
+    <link rel="alternate" hreflang="en" href="/en/blog.html" >
+    <link rel="alternate" hreflang="de" href="/de/blog.html" >
+    
+    <link href="https://mastodon.world/@svenfranckvolt" rel="me">
+
+    <link rel="icon" href="../img/favicon.ico" sizes="32x32">
+    <link rel="icon" href="../img/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="../img/apple-touch-icon.png"><!-- 180×180 -->
+
+    <noscript>
+      <link rel="stylesheet" href="../lib/jsstyle.css">
+    </noscript>
+
+    <script src="../lib/rsvp.js"></script>
+    <script src="../lib/renderjs.js"></script>
+    <script src="../lib/jsstyle.js"></script>
+
+    <link rel="prerender" href="/gadget_sven_style.html">
+  
+  </head>
+  <body data-nostyle-css-url="lib/jsstyle.css" data-nostyle-gadget-url="../gadget_sven_style.html">
+    <nav id="socialmedia">
+      <ul>
+        <li><a role="button" aria-label="Follow me on LinkedIn" href="https://www.linkedin.com/in/sven-franck-94219023/" target="_blank" rel="noopener noreferrer" title="Follow me on LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+        <li><a role="button" aria-label="Follow me on Facebook" href="https://www.facebook.com/sven.franck" target="_blank" rel="noopener noreferrer" title="Follow me on Facebook"><i class="fab fa-facebook"></i></a></li>
+        <li><a role="button" aria-label="Follow me on Twitter" title="Follow me on Twitter" href="https://twitter.com/SvenFranck" target="_blank" rel="noopener noreferrer"><i class="fab fa-x-twitter"></i></a></li>
+        <li><a role="button" aria-label="Follow me on Mastodon" title="Follow me on Mastodon" href="https://mastodon.world/@svenfranckvolt" target="_blank" rel="noopener noreferrer"><i class="fab fa-mastodon"></i></a></li>
+      </ul>
+    </nav>
+    <nav id="language">
+      <ul>
+        <li><a href="/" hreflang="fr"><abbr lang="fr">fr</abbr></a></li>
+        <li><a href="/en/" hreflang="en"><abbr lang="en">en</abbr></a></li>
+        <li><a href="/de/" hreflang="de"><abbr lang="de">de</abbr></a></li>
+      </ul>
+    </nav>
+    <nav id="sitemap">
+      <a href="/en/">Franck for Volt 2026</a>
+      <ul>
+        <li><a href="/en/how-to-vote.html">How to vote</a></li>
+        <li><a href="/en/priorities.html">Policies</a></li>
+        <li><a href="/en/about.html">About</a></li>
+        <li><a href="/en/contact.html">Help us win</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="input"><div class="page hidden_label">
+        <h1>Blog</h1>
+        <p>Reflexions on European politics.</p>
+        
+        <input type="radio" name="category" id="all" checked>
+        <label for="all">All</label>
+        <input type="radio" name="category" id="reform">
+        <label for="reform">Reforms</label>
+        <input type="radio" name="category" id="democracy">
+        <label for="democracy">Democracy</label>
+        <input type="radio" name="category" id="economy">
+        <label for="economy">Economy</label>          
+        <input type="radio" name="category" id="schengen">
+        <label for="schengen">Schengen</label>
+        <input type="radio" name="category" id="foreign-policy">
+        <label for="foreign-policy">Foreign policy</label>
+        <input type="radio" name="category" id="defense">
+        <label for="defense">Defense</label>
+        <input type="radio" name="category" id="bureaucracy">
+        <label for="bureaucracy">Bureaucracy</label>
+        <input type="radio" name="category" id="consumer-protection">
+        <label for="consumer-protection">Consumer protection</label>
+        <input type="radio" name="category" id="immigration">
+        <label for="immigration">Immigration</label>
+        
+        <h2>2026</h2>
+        <ul class="h-feed">
+          <li class="h-entry foreign-policy">
+              <picture>
+                <source media="(min-width: 44em)" srcset="/img/EUR-Image-Merz-meets-Trump.webp" >
+                <source media="(max-width: 44em)" srcset="/img/EUR-Image-Merz-meets-Trump-640.webp" >
+                <img loading="lazy" src="/img/EUR-Image-Merz-meets-Trump.webp" alt="Not kneeling, but almost (Photo: Samuel Corum/ABACAPRESS/IMAGO)" >
+              </picture>
+              <h3 class="p-name">Who is afraid of the big bad wolf?</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2026-03-06" class="dt-published">06/03/2026</time>)</i><br><span class="p-summary">This week, Germany chancellor Friedrich Merz paid a visit to the US President. Before, he condemned the Iranian attacks on neighboring countries with Keir Starmer and Emmanuel Macron without putting a question mark behind the US and Israel's justification for setting fire to the Middle East. He also sided with Donald Trump to call out Spain's Prime Minister Pedro Sanchez as the only European leader to take a stand. He since backtracked, but I the don't see a real strategy here aside from Germany maybe wanting to become the 51st US State.</span> <a rel="permalink" class="u-url" href="/en/blog/Who-is-afraid-of-the-big-bad-wolf.html">Read the article</a>.</p>
+          </li>
+          <li class="h-entry reform">
+              <picture>
+                <source media="(min-width: 44em)" srcset="/img/EUR-Image-Sotu-2026.webp" >
+                <source media="(max-width: 44em)" srcset="/img/EUR-Image-Sotu-2026-640.webp" >
+                <img loading="lazy" src="/img/EUR-Image-Sotu-2026.webp" alt="The show must go on. Really? (Photo: Reuters)" >
+              </picture>
+              <h3 class="p-name">European media are hooked to US politics like we are hooked to US social media</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2026-02-25" class="dt-published">25/02/2026</time>)</i><br><span class="p-summary">Yesterday, the US president held its State of the Union address at 3am our time. Perfect, because I prefer to sleep than listening to another episode from the Twilight Zone. What's not so perfect is the space Donald Trumps has in European media this morning. If we want to lift Europe on par with the US, shouldn't our media start giving more visibility to what's happening at home. It's not like we don't have drama...</span> <a rel="permalink" class="u-url" href="/en/blog/European-media-are-hooked-to-US-politics-like-we-are-hooked-to-US-social-media.html">Read the article</a>.</p>
+          </li>
+          <li class="h-entry reform">
+              <picture>
+                <source media="(min-width: 44em)" srcset="/img/EUR-Image-Eu-Council-Castle.webp" >
+                <source media="(max-width: 44em)" srcset="/img/EUR-Image-Eu-Council-Castle-640.webp" >
+                <img loading="lazy" src="/img/EUR-Image-Eu-Council-Castle.webp" alt="Trump shuttling in the digital omnibus to the meeting of aristocracy and national heads of state (Photo: Scoopy-Doo Fandom und ChatGPT)" >
+              </picture>
+              <h3 class="p-name">The European Council should be called National Council</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2026-02-11" class="dt-published">11/02/2026</time>)</i><br><span class="p-summary">Tomorrow, national leaders retreat to a castle in Belgium to discuss European competitiveness. It will be up to European evangelist Mario Draghi to foil the plan of Germany and Italy: Both seek for the EU to become more competitive by kowtowing to the demands of Trump, Musk & Co. What's not to like?</span> <a rel="permalink" class="u-url" href="/en/blog/The-EU-Council-should-be-called-National-Council.html">Read the article</a>.</p>
+          </li>
+          <li class="h-entry reform democracy">
+              <picture>
+                <source media="(min-width: 44em)" srcset="/img/EUR-Image-Fosdem-2025-Closing.webp" >
+                <source media="(max-width: 44em)" srcset="/img/EUR-Image-Fosdem-2025-Closing-640.webp" >
+                <img loading="lazy" src="/img/EUR-Image-Fosdem-2025-Closing.webp" alt="Building democracy, one open-source solution at a time - Photo: Wikipmedia by Lambroso CC share-alike 4.0" >
+              </picture>
+              <h3 class="p-name">United in diversity means making open-source mainstream</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2026-02-06" class="dt-published">06/02/2026</time>)</i><br><span class="p-summary">In case you missed it, FOSDEM, the world's largest open-source conference took place last weekend in Brussels. And while I was trying to pitch to have our Volt MEPs speak in the EU Policy sessions next year, the conference organizers announced that they wanted make FOSDEM more political. Perfect, because it's about time Europe takes open-source more serious. </span> <a rel="permalink" class="u-url" href="/en/blog/United-in-Diversity-means-making-open-source-mainstream.html">Read the article</a>.</p>
+          </li>
+          <li class="h-entry reform">
+              <picture>
+                <source media="(min-width: 44em)" srcset="/img/EUR-Image-French-German-Couple.webp" >
+                <source media="(max-width: 44em)" srcset="/img/EUR-Image-French-German-Couple-640.webp" >
+                <img loading="lazy" src="/img/EUR-Image-French-German-Couple.webp" alt="We kissed, but nothing happened - Photo: Julien Mattia / Pictorium" >
+              </picture>
+              <h3 class="p-name">Can the Franco-German couple still lead the European project?</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2026-01-28" class="dt-published">28/01/2026</time>)</i><br><span class="p-summary">France and Germany, the two motors of the European project, find themselves at a crossroads: real European integration could be a remedy against the far right at home and the threats posed by Putin and Trump. But a stronger Europe would also mean for France and Germany to take a step back. Why should they? </span> <a rel="permalink" class="u-url" href="/en/blog/Can-the-Franco-German-couple-still-lead-the-European-project.html">Read the article</a>.</p>
+          </li>
+          <li class="h-entry foreign-policy">
+              <picture>
+                <source media="(min-width: 44em)" srcset="/img/EUR-Image-Eu-Army.webp" >
+                <source media="(max-width: 44em)" srcset="/img/EUR-Image-Eu-Army-640.webp" >
+                <img loading="lazy" src="/img/EUR-Image-Eu-Army.webp" alt="An EU Military? It's time." >
+              </picture>
+              <h3 class="p-name">If Germany can live with Eurobonds, Denmark can pave the way for EU military</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2026-01-05" class="dt-published">05/01/2026</time>)</i><br><span class="p-summary">After the staccato of docile statements from EU and national leaders on Venezuela, Trump has its eyes firmly set on Greenland. Denmark, meanwhile, refused EU and member states military support months ago. With reality biting, isn't it time to reconsider? </span> <a rel="permalink" class="u-url" href="/en/blog/If-Germany-can-live-with-Eurobonds-Denmark-can-pave-the-way-for-EU-military.html">Read the article</a>.</p>
+          </li>
+          <li class="h-entry foreign-policy">
+              <picture>
+                <source media="(min-width: 44em)" srcset="/img/EUR-Image-United-We-Stand.webp" >
+                <source media="(max-width: 44em)" srcset="/img/EUR-Image-United-We-Stand-640.webp" >
+                <img loading="lazy" src="/img/EUR-Image-United-We-Stand.webp" alt="United, even dominos can stand (Photo: ChatGPT)" >
+              </picture>
+              <h3 class="p-name">First we take Maduro, then we take Greenland?</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2026-01-03" class="dt-published">03/01/2026</time>)</i><br><span class="p-summary">With the US not being coy about its objections to a United Europe, member states having nuclear arms and limiting free speech, one has to wonder when Denmark will loose Greenland or helicopters will exfiltrate Emmanuel Macron after Marine LePen is declared ineligible for the 2027 presidential elections. Are we ready for MAGA-foreign policy? </span> <a rel="permalink" class="u-url" href="/en/blog/First-we-take-Maduro-then-we-take-Greenland.html">Read the article</a>.</p>
+          </li>
+        </ul>
+        <h2>2025</h2>
+        <ul class="h-feed">
+          <li class="h-entry reform">
+              <picture>
+                <source media="(min-width: 44em)" srcset="/img/EUR-Image-European-Council-Empty.webp" >
+                <source media="(max-width: 44em)" srcset="/img/EUR-Image-European-Council-Empty-640.webp" >
+                <img loading="lazy" src="/img/EUR-Image-European-Council-Empty.webp" alt="Where is European leadership when you need it? Photo: Wikimedia, barzdonas, Creative Commons Attribution 2.0" >
+              </picture>
+              <h3 class="p-name">2026: European leadership wanted!</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-12-29" class="dt-published">29/12/2025</time>)</i><br><span class="p-summary">Any EU aficionado doom-scrolling down to 2026 likely stumbled over the EU Commission self-congratulating itself on its major achievement of the year: the USB-C plug. At this make or break moment of the European Union, one would hope, that our Commission President would boldly aim for the stars to at least land us on the moon of treaty change. Not happening... </span> <a rel="permalink" class="u-url" href="/en/blog/2026-European-leadership-wanted.html">Read the article</a>.</p>
+          </li>
+          <li class="h-entry foreign-policy">
+              <picture>
+                <source media="(min-width: 44em)" srcset="/img/EU-Image-Flirt-Musk-Meloni-Ukraine.webp" >
+                <source media="(max-width: 44em)" srcset="/img/EU-Image-Flirt-Musk-Meloni-Ukraine-640.webp" >
+                <img loading="lazy" src="/img/EU-Image-Flirt-Musk-Meloni-Ukraine.webp" alt="Staring into the abyss - picture alliance / ASSOCIATED PRESS | Michelle Farsi ©" >
+              </picture>
+              <h3 class="p-name">Frozen assets: from Moscow with love</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-12-16" class="dt-published">16/12/2025</time>)</i><br><span class="p-summary">The temperature is rising ahead of Thursday's European Council on funding #Ukraine for 2026 and 2027. With the principal question being if and how to "unfreeze" the 210B€ of Russian assets held by Belgian Euroclear to fund Ukraine defense and reconstruction. Both Russia threatening legal action and the US seeking control over spending are pressuring our national leaders to coy. </span> <a rel="permalink" class="u-url" href="/en/blog/Frozen-assets-from-Moscow-with-love.html">Read the article</a>.</p>
+          </li>
+          <li class="h-entry reform foreign-policy">
+              <picture>
+                <source media="(min-width: 44em)" srcset="/img/EU-Image-Eurphoria.webp" >
+                <source media="(max-width: 44em)" srcset="/img/EU-Image-Eurphoria-640.webp" >
+                <img loading="lazy" src="/img/EU-Image-Eurphoria.webp" alt="Flag waving and then what?" >
+              </picture>
+              <h3 class="p-name">How about a European Security Strategy?</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-12-09" class="dt-published">09/12/2025</time>)</i><br><span class="p-summary">The last week has been a revelation for transatlantists with the publication of the US National Security Strategy and Elon Musk, disgruntled by a 140M€ fine for violating the Digital Service Act, calling for the EU to be dissolved. Europe's response: we're BFF, always have, always will. Really?</span> <a rel="permalink" class="u-url" href="/en/blog/How-about-a-European-Security-Strategy.html">Read the article</a>.</p>
+          </li>
+          <li class="h-entry reform">
+              <picture>
+                <source media="(min-width: 44em)" srcset="/img/EUR-Image-Public-Action-Frankfurt.webp" >
+                <source media="(max-width: 44em)" srcset="/img/EUR-Image-Public-Action-Frankfurt-640.webp" >
+                <img loading="lazy" src="/img/EUR-Image-Public-Action-Frankfurt.webp" alt="Igniting sparks for Europe like it's 2017" >
+              </picture>
+              <h3 class="p-name">Rave, rave into the dying of the light?</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-11-25" class="dt-published">25/11/2025</time>)</i><br><span class="p-summary">Jürgen Habermas assessed that "further political integration, at least at the core of the European Union, has never been as vital to our survival as it is today. And never so unlikely". I'm siding with Dylan Thomas "to not go gentle into that good night" instead. </span> <a rel="permalink" class="u-url" href="/en/blog/Rave-rave-against-the-dying-of-the-light.html">Read the article</a>.</p>
+          </li>
+          <li class="h-entry democracy reform">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/si-glasilo-202511-petition.webp" >
+                <source media="(max-width: 44em)" srcset="../img/si-glasilo-202511-petition-640.webp" >
+                <img loading="lazy" src="../img/si-glasilo-202511-petition.webp" alt="Collecting signatures - weaponizeable to make citizens voices count." >
+              </picture>
+              <h3 class="p-name">Why can Trump propose EU legislation and the Parliament can't?</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-11-10" class="dt-published">10/11/2025</time>)</i><br><span class="p-summary">The EU Commission’s omnibus shows who holds influence in Europe. If we professionalise the way we collect signatures, we could counterbalance that with ECIs. </span> <a rel="permalink" class="u-url" href="blog/Why-can-Trump-propose-EU-legislation-and-the-Parliament-can-t.html">Read the article</a>.</p>
+          </li>
+          <li class="h-entry democracy">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Image-Manif-Slovenia-Motion.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Image-Manif-Slovenia-Motion-640.webp" >
+                <img loading="lazy" src="../img/EUR-Image-Manif-Slovenia-Motion.webp" alt="Early morning protest after working until 3am is not good for your eyerings" >
+              </picture>
+              <h3 class="p-name">European democracy: how's that gonna work?</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-10-05" class="dt-published">05/10/2025</time>)</i><br><span class="p-summary">I'm currently trying a first: putting a member motion on the Volt Europa General Assembly agenda this November. It means figuring out how to campaign for a topic across borders and how a European democracy could function. </span> <a rel="permalink" class="u-url" href="blog/European-democracy-How-is-that-gonna-work.html">Read the article</a>.</p>
+          </li>
+          <li class="h-entry democracy">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Blog-Image-European-Groundhog-Day.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Blog-Image-European-Groundhog-Day-640.webp" >
+                <img loading="lazy" src="../img/EUR-Blog-Image-European-Groundhog-Day.webp" alt="Photo from Groundhog day, Commission President added by ChatGPT" >
+              </picture>
+              <h3 class="p-name">European Groundhog day: will we ever wake up?</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-09-21" class="dt-published">21/09/2025</time>)</i><br><span class="p-summary">If you are a Europe aficionado or among the record high population that believes more Europe is kinda warranted, you must also start to believe we are in the equivalent of a European Groundhog day. </span> <a rel="permalink" class="u-url" href="blog/European-Groundhog-day-Will-we-ever-wake-up.html">Read the article</a>.</p>
+          </li>
+          <li class="h-entry democracy">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/FR-blog-image-mr-freedom.webp" >
+                <source media="(max-width: 44em)" srcset="../img/FR-blog-image-mr-freedom-640.webp" >
+                <img loading="lazy" src="../img/FR-blog-image-mr-freedom.webp" alt="Screenshot Mr. Freedom (Photo: https://tortillapolis.com/)" >
+              </picture>
+              <h3 class="p-name">Trouble in France</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-09-10" class="dt-published">10/09/2025</time>)</i><br><span class="p-summary">After Prime Minister Bayrou's budget-harakiri, President Macron quickly appointed defence minister Sébastien Lecornu as new prime minister. One has to wonder how many aces he has left in his sleeve considering passing a similar budget will likely mean a similar fate for the new prime minister.</span> <a rel="permalink" class="u-url" href="blog/Trouble-in-France.html">Read the article</a>.</p>
+          </li>
+          <li class="h-entry democracy">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Image-Meloni-Europe-of-Nations.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Image-Meloni-Europe-of-Nations-640.webp" >
+                <img loading="lazy" src="../img/EUR-Image-Meloni-Europe-of-Nations.webp" alt="Europe of Nations? No, thanks! (Photo: Claudio Peri/EFE)" >
+              </picture>
+              <h3 class="p-name">A Europe of Nations? 🤨 No thanks!</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-08-31" class="dt-published">31/08/2025</time>)</i><br><span class="p-summary">Giorgia Meloni did not want the spotlight to be stolen from her at the recent Rimini Meeting. Contrary to Mario Draghi pleading for European integration she was championing a Europe of Nations. As if more of the status quo is suddenly the solution.</span> <a rel="permalink" class="u-url" href="blog/A-Europe-of-Nations-No-thanks.html">Read the article</a>.</p>
+          </li>
+          <li class="h-entry democracy consumer-protection">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Image-Chat-Control-Transparency.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Image-Chat-Control-Transparency-640.webp" >
+                <img loading="lazy" src="../img/EUR-Image-Chat-Control-Transparency.webp" alt="ChatControl and transparency? Dream on." >
+              </picture>
+              <h3 class="p-name">ChatControl: the end of the secrecy of correspondence</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-08-23" class="dt-published">23/08/2025</time>)</i><br><span class="p-summary">Even if 72% of the European population is against it, total surveillance of our digital communication risks becoming a near reality. Best we end the secrecy of correspondence with it.</span> <a rel="permalink" class="u-url" href="blog/Chat-Control-the-end-of-the-secrecy-of-correspondence.html">Read the article</a>.</p>
+            </li>
+          <li class="h-entry democracy foreign-policy">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Image-Soteu-Cut-The-Sweet-Talk.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Image-Soteu-Cut-The-Sweet-Talk-640.webp" >
+                <img loading="lazy" src="../img/EUR-Image-Soteu-Cut-The-Sweet-Talk.webp" alt="SOTEU 2026: Cut the sweet talk" >
+              </picture>
+              <h3 class="p-name">SOTEU 2026: Cut the sweet talk</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-08-20" class="dt-published">20/08/2025</time>)</i><br><span class="p-summary">Everything has been said about the White House summit but if one thing is clear after the NATO summit, the US-EU trade deal and last weekend, it's that the EU has some serious introspection to do followed by some equally serious reforming.</span> <a rel="permalink" class="u-url" href="blog/State-of-the-European-Union-SOTEU-Cut-the-sweet-talk.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry reform">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Image-Fork-the-EU.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Image-Fork-the-EU-640.webp" >
+                <img loading="lazy" src="../img/EUR-Image-Fork-the-EU.webp" alt="Fork the EU" >
+              </picture>
+              <h3 class="p-name">Fork the EU</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-08-12" class="dt-published">12/08/2025</time>)</i><br><span class="p-summary">Why not fork the EU? Because whatever your dream of a future European Union, any changes to treaties will require unanimity and there will always be someone saying no. Like in software, the threat of a fork creates leverage.</span> <a rel="permalink" class="u-url" href="blog/Fork-the-EU.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry budget">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Image-Multiannual-Financial-Framework.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Image-Multiannual-Financial-Framework-640.webp" >
+                <img loading="lazy" src="../img/EUR-Image-Multiannual-Financial-Framework.webp" alt="EU Budget: Pennies for the Dollar?" >
+              </picture>
+              <h3 class="p-name">EU Budget: Pennies for the Dollar?</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-07-17" class="dt-published">17/07/2025</time>)</i><br><span class="p-summary">Yesterday, Commission President Ursula von der Leyen presented the new EU budget (MFF) to be negotiated over the next 24 months with an increase to 1.984 Trillion € or 1.26% of Gross National Income (GNI) - up from 1.13% for the ongoing period.</span> <a rel="permalink" class="u-url" href="blog/EU-Budget-Pennies-for-the-Dollar.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry economy bureaucracy">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Image-Documentation-Meltdown.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Image-Documentation-Meltdown-640.webp" >
+                <img loading="lazy" src="../img/EUR-Image-Documentation-Meltdown.webp" alt="Innovation or Bureaucracy?" >
+              </picture>
+              <h3 class="p-name">Innovation or Bureaucracy?</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-07-12" class="dt-published">12/07/2025</time>)</i><br><span class="p-summary">I recently submitted a dossier for the European Defence Fund. Our SME consortium passed the threshold with high grades for innovation. However, another project scored better and since only one project was funded, we found ourselves accepted but sans budget.</span> <a rel="permalink" class="u-url" href="blog/Innovation-or-Bureaucracy.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry democracy">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Image-Motion-Of-Censure.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Image-Motion-Of-Censure-640.webp" >
+                <img loading="lazy" src="../img/EUR-Image-Motion-Of-Censure.webp" alt="Motion of Censure: Decommissioning the Commission President?" >
+              </picture>
+              <h3 class="p-name">Motion of Censure: Decommissioning the Commission President?</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-07-07" class="dt-published">07/07/2025</time>)</i><br><span class="p-summary">Last week a Romanian MEP from the ECR group tabled a motion of censure against Commission President Ursula von der Leyen for her role in the Pfizergate scandal and interference in German and Romanian elections.</span> <a rel="permalink" class="u-url" href="blog/Motion-of-Censure-Decommissioning-the-Commission-President.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry schengen">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Image-Illegal-Border-Controls.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Image-Illegal-Border-Controls-640.webp" >
+                <img loading="lazy" src="../img/EUR-Image-Illegal-Border-Controls.webp" alt="Border controls are like national parties" >
+              </picture>
+              <h3 class="p-name">Border controls are like national parties</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-07-01" class="dt-published">01/07/2025</time>)</i><br><span class="p-summary">This weekend my green consciousness had me taking the bus from Ljubljana to Munich to catch a direct train to Utrecht. However, reducing exposure to Deutsche Bahn's punctuality does not save travellers from the new German government's paneuropean-domino of illegal border controls.</span> <a rel="permalink" class="u-url" href="blog/Border-controls-are-like-national-parties.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry foreign-policy defense">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Image-Nato-Five-Percent.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Image-Nato-Five-Percent-640.webp" >
+                <img loading="lazy" src="../img/EUR-Image-Nato-Five-Percent.webp" alt="5% Nato spending" >
+              </picture>
+              <h3 class="p-name">5% Nato spending</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-06-25" class="dt-published">25/06/2025</time>)</i><br><span class="p-summary">It's Nato summit and Mark Rutte already spoiled the poetic message: We will be spending 5% of GDP on defense. That's significantly more than the 2% members committed to grow their spending until 2024.</span> <a rel="permalink" class="u-url" href="blog/5-percent-Nato-spending.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry foreign-policy">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Image-Foreign-Policy-Trilogue.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Image-Foreign-Policy-Trilogue-640.webp" >
+                <img loading="lazy" src="../img/EUR-Image-Foreign-Policy-Trilogue.webp" alt="The case for an EU Foreign Policy Trilogue" >
+              </picture>
+              <h3 class="p-name">The case for an EU Foreign Policy Trilogue</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-06-17" class="dt-published">17/06/2025</time>)</i><br><span class="p-summary">I recently watched Jeffrey Sachs speaking in the EU Parliament and I can only echo the criticism towards the European Union lacking a proper foreign policy.</span> <a rel="permalink" class="u-url" href="blog/The-case-for-an-EU-Foreign-Policy-Trilogue.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry schengen">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Image-Schengen-Visa.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Image-Schengen-Visa-640.webp" >
+                <img loading="lazy" src="../img/EUR-Image-Schengen-Visa.webp" alt="Free movement for citizens or human resources?" >
+              </picture>
+              <h3 class="p-name">Free movement for citizens or human resources?</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-06-14" class="dt-published">14/06/2025</time>)</i><br><span class="p-summary">It's Schengen's birthday! On June 14th 1985, the agreement to abolish border controls was signed in Schengen. 40 years later, 29 countries are participating: the EU less Cyprus and Ireland but with Switzerland, Norway, Liechtenstein and Iceland.</span> <a rel="permalink" class="u-url" href="blog/Schengen-Free-movement-for-citizens-or-human-resources.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry economy">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Image-Eu-Open-for-Business.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Image-Eu-Open-for-Business-640.webp" >
+                <img loading="lazy" src="../img/EUR-Image-Eu-Open-for-Business.webp" alt="EU: Open for business?" >
+              </picture>
+              <h3 class="p-name">EU: Open for business?</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-06-03" class="dt-published">03/06/2025</time>)</i><br><span class="p-summary">I recently watched a US discussion on Trumps tariff roller coaster and the phrase that stuck with me was the US has the ideas, China the manufacturing and Europe... they can only regulate. </span> <a rel="permalink" class="u-url" href="blog/EU-Open-for-business.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry reform immigration">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Image-Stealing-Topics-From-The-Extreme-Right.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Image-Stealing-Topics-From-The-Extreme-Right-640.webp" >
+                <img loading="lazy" src="../img/EUR-Image-Stealing-Topics-From-The-Extreme-Right.webp" alt="Why doesn't the EU steal the extreme-right's favorite topic?" >
+              </picture>
+              <h3 class="p-name">Why doesn't the EU steal the extreme-right's favorite topic?</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-06-03" class="dt-published">03/06/2025</time>)</i><br><span class="p-summary">Another day, another snap election. This time, Geert Wilders blew up the Dutch (far-)right coalition over its unwillingness to support his 0-Asylum initiative. All things equal, we will again have to bear through a campaign on... guess what? Immigration. Are there no other urgent topics?</span> <a rel="permalink" class="u-url" href="blog/Why-doesn-t-the-EU-steal-the-extreme-right-s-favorite-topic.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry reform">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Image-European-Brand-Building.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Image-European-Brand-Building-640.webp" >
+                <img loading="lazy" src="../img/EUR-Image-European-Brand-Building.webp" alt="40 years of EU brand-building with just a flag?" >
+              </picture>
+              <h3 class="p-name">40 years of EU brand-building with just a flag?</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-05-30" class="dt-published">30/05/2025</time>)</i><br><span class="p-summary">Yesterday 39 years ago, on the 29th of May 1986, the European flag was officially inaugurated. Also yesterday, I stumbled over an ad on Facebook from a youth magazine pitching the flag and a European Identity - only to be drowned in comments along the lines of WTF is European identity?</span> <a rel="permalink" class="u-url" href="blog/40-years-of-EU-brand-building-with-just-a-flag.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry bureaucracy">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Image-National-Bureaucrazy.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Image-National-Bureaucrazy-640.webp" >
+                <img loading="lazy" src="../img/EUR-Image-National-Bureaucrazy.webp" alt="National Bureaucrazy" >
+              </picture>
+              <h3 class="p-name">National Bureaucrazy</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-05-27" class="dt-published">27/05/2025</time>)</i><br><span class="p-summary">9h00 am. Mail from the Slovenian immigration office after waiting for 6 months. Missing proof of health insurance. Ok, but...</span> <a rel="permalink" class="u-url" href="blog/National-Bureaucrazy.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry economy consumer-protection">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Image-European-Social-Media.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Image-European-Social-Media-640.webp" >
+                <img loading="lazy" src="../img/EUR-Image-European-Social-Media.webp" alt="Should the EU break social media?" >
+              </picture>
+              <h3 class="p-name">Should the EU break social media?</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-05-25" class="dt-published">25/05/2025</time>)</i><br><span class="p-summary">The public consultation on Europe's future Democracy shield is about to close and albeit a high signal to noise ratio courtesy of an initiative from Slovakia, making our democracies more resilient is becoming an urgency.</span> <a rel="permalink" class="u-url" href="blog/Democracy-shield-Should-the-EU-ban-social-media.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry reform foreign-policy">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Image-9th-Of-May.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Image-9th-Of-May-640.webp" >
+                <img loading="lazy" src="../img/EUR-Image-9th-Of-May.webp" alt="Yay, 9th of May" >
+              </picture>
+              <h3 class="p-name">Yay, 9th of May</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-05-09" class="dt-published">09/05/2025</time>)</i><br><span class="p-summary">Yay, it's Europe day! 🇪🇺 A while ago, I wrote that everybody is proudly European for a day before going back to national politics. Not much has changed.</span> <a rel="permalink" class="u-url" href="blog/Yay-9th-of-May.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry foreign-policy">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-image-stock-market.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-image-stock-market-640.webp" >
+                <img loading="lazy" src="../img/EUR-image-stock-market.webp" alt="So maga" >
+              </picture>
+              <h3 class="p-name">Where the f… is Europe?</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-04-09" class="dt-published">09/04/2025</time>)</i><br><span class="p-summary">Stock markets around the world are in maga-red after US president Trump slapped tariffs on the world before heading to a Nero-esque weekend of golf. And while China was quick to announce quid-pro-quo tariffs, the European Union does… nothing. Business as usual? </span> <a rel="permalink" class="u-url" href="blog/Where-the-f-is-Europe.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry foreign-policy">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Image-Santa-April1.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Image-Santa-April1-640.webp" >
+                <img loading="lazy" src="../img/EUR-Image-Santa-April1.webp" alt="Ho-ho-hoh! - behold a European Santa!" >
+              </picture>
+              <h3 class="p-name">How Greenland convinced Santa to change his outfit to European blue</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-04-01" class="dt-published">01/04/2025</time>)</i><br><span class="p-summary">Greenland stood up the Vance family because they were convincing Santa to switch his outfit from Maga-red to EU-blue. With a green light from the North Pole, a petition has been launched to request chocolate manufacturers and retailers to jump on the bandwagon. </span> <a rel="permalink" class="u-url" href="blog/How-Greenland-convinced-Santa-to-change-his-outfit-to-European-blue.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry economy foreign-policy">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Blog-Stock-Market-Crash.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Blog-Stock-Market-Crash-640.webp" >
+                <img loading="lazy" src="../img/EUR-Blog-Stock-Market-Crash.webp" alt="Heading for a fall? Photo: Austin Hervias on Unsplash" >
+              </picture>
+              <h3 class="p-name">Tariffs: Why a zero-sum game?</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-03-14" class="dt-published">14/03/2025</time>)</i><br><span class="p-summary">The United States and Europa have started imposing tariffs on each other and we should ask what is the EU’s end game, because "an eye for an eye" should not mean that Europe must poke out its eyes just because America does it. </span> <a rel="permalink" class="u-url" href="blog/Tariffs-Why-a-zero-sum-game.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry democracy reform">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Image-Baron-Munchhausen.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Image-Baron-Munchhausen-640.webp" >
+                <img loading="lazy" src="../img/EUR-Image-Baron-Munchhausen.webp" alt="Replace cannonball with Nuke - Photo: Alphonse Adolphe Bichard (1879)" >
+              </picture>
+              <h3 class="p-name">Fact or Fiction?</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-02-22" class="dt-published">22/02/2025</time>)</i><br><span class="p-summary">Credibility and reliability are amiss in the world today. The more chaos Trump creates, the more Europe has to become a defender of not only its frontiers, but also of facts and science over fiction and lies. </span> <a rel="permalink" class="u-url" href="blog/Fact-or-Fiction.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry democracy reform">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Blog-Elections-Germany.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Blog-Elections-Germany-640.webp" >
+                <img loading="lazy" src="../img/EUR-Blog-Elections-Germany.webp" alt="The wise choice: Volt" >
+              </picture>
+              <h3 class="p-name">Out of options? Nope. Vote Volt.</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-02-15" class="dt-published">15/02/2025</time>)</i><br><span class="p-summary">Since Maastricht, governments of the right and left neglected to advance the European project and to make the EU the federal Institution, which we would need today. Why should it be any different after 23.02.?</span> <a rel="permalink" class="u-url" href="blog/Out-of-options-Nope-Vote-Volt.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry foreign-policy reform">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Image-Santa-Meloni.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Image-Santa-Meloni-640.webp" >
+                <img loading="lazy" src="../img/EUR-Image-Santa-Meloni.webp" alt="European Dystopia anyone? - photo: aleXsandro Palombo" >
+              </picture>
+              <h3 class="p-name">MEGA, MAGA, GAGA?</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-01-30" class="dt-published">30/01/2025</time>)</i><br><span class="p-summary">The extreme-right spent years framing migration as their topic to win elections. Why not copy the strategy and use the Trump presidency to question the "American way of life" and the extreme-right’s true objectives?</span> <a rel="permalink" class="u-url" href="blog/Mega-Maga-Gaga.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry bureaucracy consumer-protection">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Image-Social-Media-Abyss.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Image-Social-Media-Abyss-640.webp" >
+                <img loading="lazy" src="../img/EUR-Image-Social-Media-Abyss.webp" alt="Free brainwash brought to you by social media - Photo by Gaelle Marcel/Unsplash" >
+              </picture>
+              <h3 class="p-name">Bananas? Bent. Lids? Fixed. Social media: you're next!</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-01-23" class="dt-published">23/01/2025</time>)</i><br><span class="p-summary">The negative effects of social media far outweigh its benefits even before Donald Trump took office. Just like with junk food, the European Commission would have the regulatory means to protect citizens and make the European online world a better place. The time is now.</span> <a rel="permalink" class="u-url" href="blog/Bananas-bent-Lids-fixed-Social-media-You-re-next.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry foreign-policy reform">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Image-US-flag-49-stars.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Image-US-flag-49-stars-640.webp" >
+                <img loading="lazy" src="../img/EUR-Image-US-flag-49-stars.webp" alt="California gone missing: only 49 stars left." >
+              </picture>
+              <h3 class="p-name">Why California should join the EU</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-01-19" class="dt-published">19/01/2025</time>)</i><br><span class="p-summary">The European Union should respond to Donald Trump’s imperialist ambitions not only by rattling its regulatory toolbox. A united and political Europe would also find other ways to sway public opinion at home and abroad.</span> <a rel="permalink" class="u-url" href="blog/Why-California-should-join-the-EU.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry democracy">
+              <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Image-Alice-in-Wonderland-Cave.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Image-Alice-in-Wonderland-Cave-640.webp" >
+                <img loading="lazy" src="../img/EUR-Image-Alice-in-Wonderland-Cave.webp" alt="Alice on the way to Wonderland - Photo : Disney" >
+              </picture>
+              <h3 class="p-name">Alice in Wonderland</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-01-13" class="dt-published">13/01/2025</time>)</i><br><span class="p-summary">Let’s journey into a wonderland to find out if the AfD's slogan "Alice for Germany" is just a sham for "Alice in Wonderland".</span> <a rel="permalink" class="u-url" href="blog/Alice-in-Wonderland.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry democracy reform">
+               <picture>
+                <source media="(min-width: 44em)" srcset="../img/EUR-Image-Voeux-2025-Plastic-Bottle.webp" >
+                <source media="(max-width: 44em)" srcset="../img/EUR-Image-Voeux-2025-Plastic-Bottle-640.webp" >
+                <img loading="lazy" src="../img/EUR-Image-Voeux-2025-Plastic-Bottle.webp" alt="European wishes beyond plastic-lids" >
+              </picture>
+              <h3 class="p-name">European wishes beyond plastic-lids</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2025-01-09" class="dt-published">09/01/2025</time>)</i><br><span class="p-summary">Staring at the EU's self-congratulatory post of gifting us the USB-c plug and while pulling on the plastic-lid clumsily attached to my water bottle, I cannot help but wonder: are these all of your latest achievements, Europe?</span> <a rel="permalink" class="u-url" href="blog/European-wishes-beyond-plastic-lids.html">Read the article</a>.</p>
+            </li>
+          </ul>
+          <h2>2024</h2>
+          <ul>
+            <li class="h-entry democracy">
+               <picture>
+                <source media="(min-width: 44em)" srcset="../img/FR-Image-Sven-Franck-Europe-par-Thomas-Lambert.webp" >
+                <source media="(max-width: 44em)" srcset="../img/FR-Image-Sven-Franck-Europe-par-Thomas-Lambert-640.webp" >
+                <img loading="lazy" src="../img/FR-Image-Sven-Franck-Europe-par-Thomas-Lambert.webp" alt="Sven Franck, a voix for Europe in France" >
+              </picture>
+              <h3 class="p-name">Why a vote with conviction is useful</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2024-06-07" class="dt-published">06/07/2024</time>)</i><br><span class="p-summary">On June 9th, I will vote for Europe-Territoires-Écologie because because it's the only chance the left will have to build a majority in 2027 and because Volt France is part of it.</span> <a rel="permalink" class="u-url" href="blog/Why-a-vote-with-conviction-is-useful.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry democracy">
+               <picture>
+                <source media="(min-width: 44em)" srcset="../img/FR-Image-Remaniement.webp" >
+                <source media="(max-width: 44em)" srcset="../img/FR-Image-Remaniement.640.webp" >
+                <img class="lazy u-photo" src="../img/FR-Image-Remaniement.webp" >
+              </picture>
+              <h3 class="p-name">A new hand to build a new house of cards?</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2024-01-12" class="dt-published">12/01/2024</time>)</i><br><span class="p-summary">The European elections offer a chance to break the deadlock of our political system - by voting for small parties such as Volt France.</span> <a rel="permalink" class="u-url" href="blog/A-new-hand-to-build-a-new-house-of-cards.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry immigration">
+               <picture>
+                <source media="(min-width: 44em)" srcset="../img/FR-Image-Field-Workers-Immigration.webp" >
+                <source media="(max-width: 44em)" srcset="../img/FR-Image-Field-Workers-Immigration-640.webp" >
+                <img class="lazy u-photo" src="../img/FR-Image-Field-Workers-Immigration.webp" >
+              </picture>
+              <h3 class="p-name">Let's be frank: Immigration is invaluable for our economy</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2023-12-19" class="dt-published">19/12/2023</time>)</i><br><span class="p-summary">Our economy depends on immigration and our diversity could be one of France's greatest assets.</span> <a rel="permalink" class="u-url" href="blog/Let-s-be-frank-Immigration-is-valuable-for-our-economy.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry reform">
+                <picture>
+                <source media="(min-width: 44em)" srcset="../img/FR-Image-Soteu2024.webp" >
+                <source media="(max-width: 44em)" srcset="../img/FR-Image-Soteu2024.640.webp" >
+                <img class="lazy u-photo" src="../img/FR-Image-Soteu2024.webp" >
+              </picture>
+              <h3 class="p-name">SOTEU 2023 - Travelling without moving</h3>
+              <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2023-09-14" class="dt-published">14/09/2023</time>)</i><br><span class="p-summary">In her SOTEU 2023 speech, Ursula von der Leyen touched on a plethora of subjects, but proposed only superficial measures instead of advancing the European project.</span> <a rel="permalink" class="u-url" href="blog/SOTEU-2023-Travelling-without-moving.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry democracy">
+                <picture>
+                  <source media="(min-width: 44em)" srcset="../img/FR-Graphics-European-Union-Of-America.webp" >
+                  <source media="(max-width: 44em)" srcset="../img/FR-Graphics-European-Union-Of-America-640.webp" >
+                  <img class="lazy u-photo" src="../img/FR-Graphics-European-Union-Of-America.webp" alt="The United States of Europe [Graphic par Midjourney]" >
+                </picture>
+                <h3 class="p-name">Why not call for a vote of non-confidence against the European Commission?</h3>
+                <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2023-07-18" class="dt-published">18/07/2023</time>)</i><br><span class="p-summary">The recent appointment of Fiona Scott Morton, an American citizen and lobbyist for Apple, Amazon and Microsoft, as Chief Economist of the European Commission's Directorate-General for Competition, will make the far right very happy across Europe in the 2024 European elections.</span> <a rel="permalink" class="u-url" href="blog/Why-not-call-a-vote-of-no-confidence-aganst-the-European-Commission.html">Read the article</a>.</p>
+            </li>
+            <li class="h-entry democracy">
+                <picture>
+                  <source media="(min-width: 44em)" srcset="../img/FR-Graphic-Avengers-Politique.webp" >
+                  <source media="(max-width: 44em)" srcset="../img/FR-Graphic-Avengers-Politique-640.webp" >
+                  <img class="lazy u-photo" src="../img/FR-Graphic-Avengers-Politique.webp" alt="The Avengers of politics [Graphic by Midjourney]" >
+                </picture>
+                <h3 class="p-name">Why are there no avengers in politics ?</h3>
+                <p><i>(<span class="p-author h-card">Sven Franck</span>, <time datetime="2023-06-27" class="dt-published">27/06/2023</time>)</i><br><span class="p-summary">A year before the European elections and with most eyes already turned towards 2027, French politics is once again engaged in its perpetual search for the equivalent of the voice - the personality who will unite the country and become its quintessential leader - in theory.</span> <a rel="permalink" class="u-url" href="blog/Why-are-there-no-avengers-in-politics.html">Read the article</a>.</p>
+            </li>
+        </ul>
+      </div></div>
+    </main>
+    <footer>
+      <h2>Get involved yourself</h2>
+        <ul>
+          <li>
+            <h3><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M14.9562 9.55237L10.3248 14.1838L8.78094 12.64L12.3207 9.1002L0.5 9.10019L0.500001 6.91691L12.3207 6.91692L8.78098 3.37715L10.3248 1.83334L16.5 8.00856L14.9562 9.55237Z" fill="inherit"></path></svg> Politics has no autopilot</h3>
+            <p>Europe needs you! Join more than 35,000 members in 31 countries who are contributing their time and energy to build a better Europe.</p>
+            <a role="button" aria-label="Join Volt!" href="https://volt.team/join/" target="_blank" rel="noopener noreferrer" title="Join Volt!">Join Team Europe!</a>
+          </li>
+          <li>
+            <h3><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M14.9562 9.55237L10.3248 14.1838L8.78094 12.64L12.3207 9.1002L0.5 9.10019L0.500001 6.91691L12.3207 6.91692L8.78098 3.37715L10.3248 1.83334L16.5 8.00856L14.9562 9.55237Z" fill="inherit"></path></svg> Opinion maker?</h3>
+            <p>Questions, ideas or comments? Get in touch and let's talk! Send a message!</p>
+            <a role="button" aria-label="Contact" href="mailto:hello@svenfranck.eu" title="Contact me">Get in touch</a>
+          </li>
+          <li>
+            <h3><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M14.9562 9.55237L10.3248 14.1838L8.78094 12.64L12.3207 9.1002L0.5 9.10019L0.500001 6.91691L12.3207 6.91692L8.78098 3.37715L10.3248 1.83334L16.5 8.00856L14.9562 9.55237Z" fill="inherit"></path></svg> Let's be frank</h3>
+            <p>Politics is business. Political projets without supporters get as far as startups without funding. Support me directly via <a href="/en/projects/jumpstartEU.html">#jumpstartEU</a> or donate to Volt Europa.</p>
+            <a role="button" aria-label="Donate to Volt Europa" href="https://www.volteuropa.org/donate" title="Donate to Volt Europa">Donate to Volt Europa!</a>
+          </li>
+        </ul>
+        <div>
+          <ul>
+            <li>
+              <h3>My socials</h3>
+                <ul>
+        <li><a role="button" aria-label="Follow me on LinkedIn" href="https://www.linkedin.com/in/sven-franck-94219023/" target="_blank" rel="noopener noreferrer" title="Follow me on  LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+        <li><a role="button" aria-label="Follow me on Facebook" href="https://www.facebook.com/sven.franck" target="_blank" rel="noopener noreferrer" title="Follow me on  Facebook"><i class="fab fa-facebook"></i></a></li>
+        <li><a role="button" aria-label="Follow me on Instagram" href="https://www.instagram.com/sven.franck.volt/" target="_blank" rel="noopener noreferrer" title="Follow me on  Instagram"><i class="fab fa-instagram"></i></a></li>
+        <li><a role="button" aria-label="Follow me on Bluesky" title="Follow me on Bluesky" href="https://bsky.app/profile/svenfranck.bsky.social" target="_blank" rel="noopener noreferrer"><i class="fab fa-bluesky"></i></a></li>
+        <li><a role="button" aria-label="Follow me on Mastodon" title="Follow me on Mastodon" href="https://mastodon.world/@svenfranckvolt" target="_blank" rel="noopener noreferrer"><i class="fab fa-mastodon"></i></a></li>
+        <li><a role="button" aria-label="Follow me on Threads" title="Follow me on Threads" href="https://www.threads.com/@sven.franck.volt" target="_blank" rel="noopener noreferrer"><i class="fab fa-threads"></i></a></li>
+        <li><a role="button" aria-label="Follow me on Twitter" href="https://twitter.com/SvenFranck" target="_blank" rel="noopener noreferrer" title="Follow me on Twitter"><i class="fab fa-x-twitter"></i></a></li>
+        <li><a role="button" aria-label="Follow me on Youtube" title="Follow me on Youtube" href="https://www.youtube.com/@SvenFranckVolt" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a></li>
+        <li><a role="button" aria-label="Follow me on TikTok" title="Follow me on TikTok" href="https://www.tiktok.com/@svenfranckvolt" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i></a></li>
+      </ul>
+            </li>
+            <li>
+              <form action="https://app.keila.io/forms/nfrm_AQ3LGmRZ" method="post" target="_blank">
+                <h3>My newsletter <span class="newsletter-via">(via keila.io)</span></h3>
+                <div class="newsletter-row">
+                  <label class="visually-hidden" for="contact_email">Your email</label>
+                  <input id="contact_email" name="contact[email]" type="email" placeholder="Your email">
+                  <button>Sign up</button>
+                </div>
+              </form>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <ul>
+                <li><a href="/en/">Homepage</a></li>
+                <li><a href="/en/about.html">About</a></li>
+                <li><a href="/en/blog.html">Blog</a></li>
+                <li><a href="/en/topics.html">Topics</a> <span class="sitemap-note">(European Parliament elections 2024)</span></li>
+                <li><a href="/en/press.html">Press</a></li>
+                <li><a href="/en/contact.html">Contact</a></li>
+              </ul>
+            </li>
+            <li>
+              <a aria-label="Volt Europa" href="https://volteuropa.org/" target="_blank" rel="noopener noreferrer">
+                <svg width="1593" height="664" viewBox="0 0 1593 664" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1405.17 446.58V272.99H1533.72V156.727H1405.17V0.0273437L1265.36 22.1831V448.481C1265.36 480.362 1268.28 509.464 1274.28 535.715C1280.2 561.966 1290.66 584.341 1305.72 602.767C1320.71 621.194 1340.75 635.599 1365.76 645.909C1390.76 656.219 1422.35 661.411 1460.52 661.411C1490.57 661.411 1515.87 658.925 1536.49 653.879C1557.11 648.907 1575.91 642.911 1592.8 636.038L1573.05 527.233C1559.89 532.278 1545.41 536.154 1529.4 538.932C1513.46 541.711 1497.96 543.173 1482.97 543.173C1451.67 543.173 1430.91 534.399 1420.6 516.923C1410.29 499.447 1405.17 475.975 1405.17 446.58Z" fill="#502379"></path>
+                  <path d="M400.332 650.15C426.071 595.821 451.517 539.225 476.525 480.435C501.532 421.646 525.297 363.514 547.818 305.967C570.34 248.421 591.033 193.434 610.045 141.005C628.983 88.4312 645.728 41.4872 660.279 0.0273437L504.457 0.0273437C492.246 37.9043 478.645 78.4867 463.802 121.848C448.885 165.282 433.749 208.57 418.32 251.638C402.892 294.78 387.902 336.02 373.424 375.506C358.946 414.992 345.564 448.993 333.353 477.51C320.411 448.774 306.81 414.699 292.698 375.213C278.512 335.728 263.742 294.414 248.313 251.346C232.884 208.277 217.675 164.989 202.758 121.628C187.842 78.1942 174.314 37.6849 162.176 0.0273437L0.796875 0.0273438C14.6168 41.2678 30.996 88.2118 50.0076 140.786C69.0192 193.36 89.7857 248.348 112.453 305.821C135.121 363.295 159.032 421.426 184.185 480.143C209.339 538.859 234.859 595.528 260.744 650.15H400.332Z" fill="#502379"></path>
+                  <path d="M1219.22 0.0273437L1079.41 22.1831V650.15H1219.22V0.0273437Z" fill="#502379"></path>
+                  <path d="M1040.36 409.947C1040.36 270.066 926.953 156.654 787.072 156.654C729.379 156.654 676.22 175.958 633.663 208.351C621.817 240.013 609.387 272.479 596.298 305.822C577.433 353.936 557.763 402.562 537.143 451.553C557.105 571.692 661.376 663.24 787.072 663.24C926.953 663.24 1040.36 549.828 1040.36 409.947ZM913.572 409.947C913.572 479.193 857.414 535.35 788.168 535.35C718.922 535.35 662.765 479.193 662.765 409.947C662.765 340.701 718.922 284.544 788.168 284.544C857.414 284.544 913.572 340.701 913.572 409.947Z" fill="#502379"></path>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <p>&copy; 2024-2026 - Made with  💜 and <a href="https://renderjs.nexedi.com" target="_blank" rel="noopener noreferrer">RenderJS</a>, hosted on <a href="https://github.com/frequent/mysite" target="_blank" rel="noopener noreferrer">Github</a>, Newsletter by <a target="_blank" rel="noopener noreferrer" href="https://www.keila.io/">Keila.io</a>.<span class="no-cookies">No cookies were baked during your visit to this website.</span></p>
+        </div>
+    </footer>
+  </body>
+</html>
