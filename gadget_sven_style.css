@@ -805,6 +805,19 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of
     flex-grow: 0;
     flex-basis: 0;
 }
+/* On a phone the white Volt logo sits centred at the very bottom, below the copyright/cookies line instead of on top of it */
+@media only screen and (max-width: 44em) {
+  div[data-gadget-url$="gadget_sven_style.html"] footer section > div p {
+    padding-bottom: 5em;
+  }
+  div[data-gadget-url$="gadget_sven_style.html"] footer a[aria-label="Volt Europa"] {
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 1.2em;
+    width: 7em;
+  }
+}
 div[data-gadget-url$="gadget_sven_style.html"] footer h3 svg {
     fill: #502379;
     height: 17px;
@@ -1495,19 +1508,14 @@ div[data-gadget-url$="gadget_sven_style.html"] .banner.banner-green h2 {
         .sec-layout-highlight
         .banner.banner-green
         h1 {
-        position: absolute;
-        bottom: 24%;
-        margin: 0;
+        display: none;           /* the overlaid tagline mis-positions/overflows on phones, so hide it — the hero is a clean photo on mobile (the tagline still shows on desktop) */
     }
     div[data-gadget-url$="gadget_sven_style.html"]
         main
         .sec-layout-highlight
         .banner.banner-green
         h2 {
-        position: absolute;
-        bottom: 12%;
-        margin: 0;
-        font-size: 1.5em;
+        display: none;
     }
 }
 div[data-gadget-url$="gadget_sven_style.html"] main p q,
@@ -2478,6 +2486,17 @@ div[data-gadget-url$="gadget_sven_style.html"] header nav ul li.scm-dropdown .sc
 div[data-gadget-url$="gadget_sven_style.html"] header nav ul li.scm-dropdown .scm-dropdown-menu li a:hover {
   background-color: #502379;       /* purple chip on hover, against the green panel */
   color: #ffffff;
+}
+/* On a phone the menu can't float off to the right (it gets clipped off-screen), so when open it sits just below the button as a compact, centred, horizontal row of icons */
+@media only screen and (max-width: 44em) {
+  div[data-gadget-url$="gadget_sven_style.html"] header .scm-dropdown.open .scm-dropdown-menu {
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.1em;
+    margin: 0.4em 0 0;
+  }
 }
 
 /* The injected bird matches the size of the icon font around it */
